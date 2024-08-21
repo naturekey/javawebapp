@@ -9,7 +9,7 @@ pipeline {
     stages {
 	    stage('checkout'){
 		 steps{
-		 git 'https://github.com/naturekey/javawebapp.git'
+		 checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/naturekey/javawebapp.git']])
 		 }
 		}
 		
