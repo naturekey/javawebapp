@@ -47,6 +47,3 @@ jobs:
         TOMCAT_PORT: ${{ secrets.TOMCAT_PORT}}
         TOMCAT_USER: ${{ secrets.TOMCAT_USER }}
         TOMCAT_PASSWORD: ${{ secrets.TOMCAT_PASSWORD }}
-
-         
-      
